@@ -1,19 +1,48 @@
 public class Dog
 {
-  private String breed;
-  private double weight;
-  private String name;
-  private String color;
+    private String breed;
+    private double size;
+    private String color;
+    private double weight;
 
-  // Make setters
-  public void setBreed(String iBreed)
-  {
-    breed = iBreed;
-  }
+    public Dog(String ibread, String iname, String icolor, double weight)
+    {
+      breed = ibreed;
+      name = iname;
+      color = icolor;
+      weight = iweight;
+    }
 
-  // Make getters
-  public String getBreed()
-  {
-    return breed;
-  }
+    public void setBreed(String iBreed)
+    {
+        breed = iBreed;
+    }
+    public void setSize(double iSize)
+    {
+        size = iSize
+    }
+    public void setColor(String iColor)
+    {
+        color = iColor;
+    }
+    public void setWeight(double iWeight)
+    {
+        if(Weight < 0)
+        {
+            weight = 0;
+        }
+        else 
+        {
+            weight = iWeight;
+        }
+    }
+    public void setBreed(String breed)
+    {
+      this.breed = breed;
+    }
+    public void setName(String name) {_name = name; }
+    {
+
+    }
 }
+

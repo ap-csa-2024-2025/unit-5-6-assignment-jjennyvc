@@ -42,7 +42,7 @@ public class Dog
     }
     public void setName(String name) {_name = name; }
     {
-
+        this.name = name;
     }
 }
 

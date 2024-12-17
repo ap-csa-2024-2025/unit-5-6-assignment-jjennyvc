@@ -16,4 +16,23 @@ public class Student
   {
     return "ID: " + ID + "\nName: " + name + "\nGrade: " + grade;
   }
+  public Student()
+  {
+    ID = 441876;
+    grade = 11;
+    name = "Jenny";
+  }
+
+  public Student(int ID, int grade, String name)
+  {
+    ID = iID;
+    grade = igrade;
+    name = iname;
+  }
+
+  public void setID(int ID)
+  {
+    this.ID = ID;
+  }
+  
 }
